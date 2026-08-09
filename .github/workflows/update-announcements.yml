@@ -1,0 +1,73 @@
+name: Update announcement mirror
+
+on:
+  schedule:
+    - cron: "*/5 * * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-announcements:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch latest holding announcements
+        shell: python
+        run: |
+          import json
+          import pathlib
+          import urllib.parse
+          import urllib.request
+          from datetime import datetime, timezone
+
+          codes = ["600276", "603259", "159748"]
+          query = urllib.parse.urlencode({
+              "sr": "-1",
+              "page_size": "50",
+              "page_index": "1",
+              "ann_type": "A",
+              "client_source": "web",
+              "stock_list": ",".join(codes),
+          })
+          url = "https://np-anotice-stock.eastmoney.com/api/security/ann?" + query
+          request = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+          with urllib.request.urlopen(request, timeout=20) as response:
+              payload = json.load(response)
+
+          items = []
+          for row in payload.get("data", {}).get("list", []):
+              stock = (row.get("codes") or [{}])[0]
+              code = str(stock.get("stock_code") or "")
+              article = str(row.get("art_code") or "")
+              items.append({
+                  "id": article or f"{code}-{row.get('title', '')}",
+                  "title": row.get("title") or "公告",
+                  "stock": stock.get("short_name") or code,
+                  "code": code,
+                  "time": str(row.get("display_time") or row.get("notice_date") or "")[:19],
+                  "url": f"https://data.eastmoney.com/notices/detail/{code}/{article}.html" if article else "",
+              })
+
+          target = pathlib.Path("announcements.json")
+          old = json.loads(target.read_text("utf-8")) if target.exists() else {"items": []}
+          if [x["id"] for x in old.get("items", [])] == [x["id"] for x in items]:
+              print("No new announcements")
+          else:
+              result = {
+                  "ok": True,
+                  "source": "GitHub同域公告镜像",
+                  "updatedAt": datetime.now(timezone.utc).isoformat(),
+                  "items": items,
+              }
+              target.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", "utf-8")
+              print(f"Updated {len(items)} announcements")
+      - name: Commit mirror when announcements change
+        run: |
+          git config user.name "redflare-announcement-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add announcements.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "update announcement mirror"
+          git push
