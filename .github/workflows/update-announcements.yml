@@ -50,7 +50,9 @@ jobs:
                   "url": f"https://data.eastmoney.com/notices/detail/{code}/{article}.html" if article else "",
               })
 
-          target = pathlib.Path("announcements.json")
+          target = pathlib.Path("site/announcements.json")
+          if not target.parent.exists():
+              target = pathlib.Path("announcements.json")
           old = json.loads(target.read_text("utf-8")) if target.exists() else {"items": []}
           if [x["id"] for x in old.get("items", [])] == [x["id"] for x in items]:
               print("No new announcements")
@@ -67,7 +69,7 @@ jobs:
         run: |
           git config user.name "redflare-announcement-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add announcements.json
+          if [ -f site/announcements.json ]; then git add site/announcements.json; else git add announcements.json; fi
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "update announcement mirror"
           git push
