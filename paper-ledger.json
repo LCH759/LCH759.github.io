@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "source": "GitHub同域前向模拟盘镜像 · 东方财富前复权日线",
+  "source": "GitHub同域前向模拟盘镜像 · 东方财富/腾讯公开前复权日线（自动备用）",
   "startedAt": "2026-08-15",
   "updatedAt": "2026-08-15T18:45:31.042887+08:00",
   "days": 1,
@@ -20,7 +20,7 @@
           "nextSignal": 0,
           "action": "空仓",
           "blocked": false,
-          "equity": 1.0
+          "equity": 1
         },
         {
           "code": "603259",
@@ -49,17 +49,17 @@
   ],
   "state": {
     "600276": {
-      "cash": 1.0,
-      "shares": 0.0,
+      "cash": 1,
+      "shares": 0,
       "position": 0
     },
     "603259": {
-      "cash": 0.0,
+      "cash": 0,
       "shares": 0.006223052959501558,
       "position": 1
     },
     "159748": {
-      "cash": 0.0,
+      "cash": 0,
       "shares": 1.1613953488372093,
       "position": 1
     }
