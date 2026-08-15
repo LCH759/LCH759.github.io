@@ -43,23 +43,47 @@ jobs:
                   "fields1": "f1,f2,f3,f4,f5,f6",
                   "fields2": "f51,f52,f53,f54,f55,f56,f57,f58,f59,f60,f61",
               })
-              request = urllib.request.Request(
-                  "https://push2his.eastmoney.com/api/qt/stock/kline/get?" + query,
-                  headers={
-                      "User-Agent": "Mozilla/5.0",
-                      "Referer": "https://quote.eastmoney.com/",
-                  },
-              )
-              with urllib.request.urlopen(request, timeout=25) as response:
-                  payload = json.load(response)
               rows = []
-              for line in (payload.get("data") or {}).get("klines") or []:
-                  values = line.split(",")
-                  rows.append({
-                      "date": values[0],
-                      "open": float(values[1]),
-                      "close": float(values[2]),
-                  })
+              try:
+                  request = urllib.request.Request(
+                      "https://push2his.eastmoney.com/api/qt/stock/kline/get?" + query,
+                      headers={
+                          "User-Agent": "Mozilla/5.0",
+                          "Referer": "https://quote.eastmoney.com/",
+                      },
+                  )
+                  with urllib.request.urlopen(request, timeout=25) as response:
+                      payload = json.load(response)
+                  for line in (payload.get("data") or {}).get("klines") or []:
+                      values = line.split(",")
+                      rows.append({
+                          "date": values[0],
+                          "open": float(values[1]),
+                          "close": float(values[2]),
+                      })
+              except Exception as error:
+                  print(f"Eastmoney fallback for {code}: {error}")
+
+              if len(rows) < SLOW + 2:
+                  symbol = ("sh" if code[0] in "569" else "sz") + code
+                  param = urllib.parse.quote(f"{symbol},day,,,120,qfq")
+                  request = urllib.request.Request(
+                      "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=" + param,
+                      headers={
+                          "User-Agent": "Mozilla/5.0",
+                          "Referer": "https://gu.qq.com/",
+                      },
+                  )
+                  with urllib.request.urlopen(request, timeout=25) as response:
+                      payload = json.load(response)
+                  block = (payload.get("data") or {}).get(symbol) or {}
+                  rows = []
+                  for values in block.get("qfqday") or block.get("day") or []:
+                      rows.append({
+                          "date": values[0],
+                          "open": float(values[1]),
+                          "close": float(values[2]),
+                      })
               if len(rows) < SLOW + 2:
                   raise RuntimeError(f"{code} history is too short")
               return rows
