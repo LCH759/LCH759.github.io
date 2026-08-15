@@ -170,7 +170,7 @@ jobs:
           entries = (ledger.get("entries") or []) + [entry]
           result = {
               "ok": True,
-              "source": "GitHub同域前向模拟盘镜像 · 东方财富前复权日线",
+              "source": "GitHub同域前向模拟盘镜像 · 东方财富/腾讯公开前复权日线（自动备用）",
               "startedAt": ledger.get("startedAt") or latest_date,
               "updatedAt": datetime.now(CST).isoformat(),
               "days": len(entries),
