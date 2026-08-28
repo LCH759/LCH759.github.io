@@ -1,8 +1,24 @@
 {
   "ok": true,
   "source": "GitHub同域公告镜像",
-  "updatedAt": "2026-08-28T00:57:58.569585+00:00",
+  "updatedAt": "2026-08-28T21:53:08.214688+00:00",
   "items": [
+    {
+      "id": "AN202608281828642763",
+      "title": "药明康德:H股公告",
+      "stock": "药明康德",
+      "code": "603259",
+      "time": "2026-08-28 18:57:14",
+      "url": "https://data.eastmoney.com/notices/detail/603259/AN202608281828642763.html"
+    },
+    {
+      "id": "AN202608281828642764",
+      "title": "药明康德:H股公告",
+      "stock": "药明康德",
+      "code": "603259",
+      "time": "2026-08-28 18:57:12",
+      "url": "https://data.eastmoney.com/notices/detail/603259/AN202608281828642764.html"
+    },
     {
       "id": "AN202608271828549613",
       "title": "药明康德:国浩律师(上海)事务所关于无锡药明康德新药开发股份有限公司A股差异化权益分派事项的专项核查意见",
@@ -386,22 +402,6 @@
       "code": "603259",
       "time": "2026-08-03 17:46:49",
       "url": "https://data.eastmoney.com/notices/detail/603259/AN202608031827590039.html"
-    },
-    {
-      "id": "AN202608031827590037",
-      "title": "药明康德:2026年A股员工持股计划(草案)",
-      "stock": "药明康德",
-      "code": "603259",
-      "time": "2026-08-03 17:46:49",
-      "url": "https://data.eastmoney.com/notices/detail/603259/AN202608031827590037.html"
-    },
-    {
-      "id": "AN202608031827590038",
-      "title": "药明康德:2026年A股员工持股计划管理办法",
-      "stock": "药明康德",
-      "code": "603259",
-      "time": "2026-08-03 17:46:49",
-      "url": "https://data.eastmoney.com/notices/detail/603259/AN202608031827590038.html"
     }
   ]
 }
