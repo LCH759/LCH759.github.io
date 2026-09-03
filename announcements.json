@@ -1,8 +1,16 @@
 {
   "ok": true,
   "source": "GitHub同域公告镜像",
-  "updatedAt": "2026-09-02T08:55:39.153872+00:00",
+  "updatedAt": "2026-09-03T08:59:43.284695+00:00",
   "items": [
+    {
+      "id": "AN202609031828961891",
+      "title": "药明康德:H股公告",
+      "stock": "药明康德",
+      "code": "603259",
+      "time": "2026-09-03 16:48:04",
+      "url": "https://data.eastmoney.com/notices/detail/603259/AN202609031828961891.html"
+    },
     {
       "id": "AN202609021828927217",
       "title": "药明康德:H股公告",
@@ -394,14 +402,6 @@
       "code": "603259",
       "time": "2026-08-04 16:42:53",
       "url": "https://data.eastmoney.com/notices/detail/603259/AN202608041827621977.html"
-    },
-    {
-      "id": "AN202608031827590035",
-      "title": "药明康德:2026年A股员工持股计划(草案)摘要公告",
-      "stock": "药明康德",
-      "code": "603259",
-      "time": "2026-08-03 17:46:49",
-      "url": "https://data.eastmoney.com/notices/detail/603259/AN202608031827590035.html"
     }
   ]
 }
