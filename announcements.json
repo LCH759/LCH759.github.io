@@ -1,8 +1,32 @@
 {
   "ok": true,
   "source": "GitHub同域公告镜像",
-  "updatedAt": "2026-09-03T08:59:43.284695+00:00",
+  "updatedAt": "2026-09-03T09:21:35.068318+00:00",
   "items": [
+    {
+      "id": "AN202609031828962377",
+      "title": "恒瑞医药:恒瑞医药关于药品上市许可申请获受理的提示性公告",
+      "stock": "恒瑞医药",
+      "code": "600276",
+      "time": "2026-09-03 17:01:33",
+      "url": "https://data.eastmoney.com/notices/detail/600276/AN202609031828962377.html"
+    },
+    {
+      "id": "AN202609031828962375",
+      "title": "恒瑞医药:恒瑞医药关于药品上市许可申请获受理的提示性公告",
+      "stock": "恒瑞医药",
+      "code": "600276",
+      "time": "2026-09-03 17:01:33",
+      "url": "https://data.eastmoney.com/notices/detail/600276/AN202609031828962375.html"
+    },
+    {
+      "id": "AN202609031828962376",
+      "title": "恒瑞医药:恒瑞医药关于获得药品注册批准的公告",
+      "stock": "恒瑞医药",
+      "code": "600276",
+      "time": "2026-09-03 17:01:33",
+      "url": "https://data.eastmoney.com/notices/detail/600276/AN202609031828962376.html"
+    },
     {
       "id": "AN202609031828961891",
       "title": "药明康德:H股公告",
@@ -378,30 +402,6 @@
       "code": "600276",
       "time": "2026-08-04 16:55:42",
       "url": "https://data.eastmoney.com/notices/detail/600276/AN202608041827622495.html"
-    },
-    {
-      "id": "AN202608041827622497",
-      "title": "恒瑞医药:恒瑞医药关于获得药物临床试验批准通知书的公告",
-      "stock": "恒瑞医药",
-      "code": "600276",
-      "time": "2026-08-04 16:55:42",
-      "url": "https://data.eastmoney.com/notices/detail/600276/AN202608041827622497.html"
-    },
-    {
-      "id": "AN202608041827622245",
-      "title": "恒瑞医药:H股公告-证券变动月报表",
-      "stock": "恒瑞医药",
-      "code": "600276",
-      "time": "2026-08-04 16:50:00",
-      "url": "https://data.eastmoney.com/notices/detail/600276/AN202608041827622245.html"
-    },
-    {
-      "id": "AN202608041827621977",
-      "title": "药明康德:H股公告",
-      "stock": "药明康德",
-      "code": "603259",
-      "time": "2026-08-04 16:42:53",
-      "url": "https://data.eastmoney.com/notices/detail/603259/AN202608041827621977.html"
     }
   ]
 }
