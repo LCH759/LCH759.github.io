@@ -1,8 +1,16 @@
 {
   "ok": true,
   "source": "GitHub同域公告镜像",
-  "updatedAt": "2026-09-07T11:14:54.216782+00:00",
+  "updatedAt": "2026-09-08T08:50:07.395617+00:00",
   "items": [
+    {
+      "id": "AN202609081829131979",
+      "title": "药明康德:H股公告(翌日披露報表)",
+      "stock": "药明康德",
+      "code": "603259",
+      "time": "2026-09-08 16:36:52",
+      "url": "https://data.eastmoney.com/notices/detail/603259/AN202609081829131979.html"
+    },
     {
       "id": "AN202609071829099485",
       "title": "药明康德:H股公告",
@@ -394,14 +402,6 @@
       "code": "603259",
       "time": "2026-08-10 16:50:30",
       "url": "https://data.eastmoney.com/notices/detail/603259/AN202608101827808067.html"
-    },
-    {
-      "id": "AN202608101827808068",
-      "title": "药明康德:关于召开2026年第一次临时股东会的通知",
-      "stock": "药明康德",
-      "code": "603259",
-      "time": "2026-08-10 16:50:30",
-      "url": "https://data.eastmoney.com/notices/detail/603259/AN202608101827808068.html"
     }
   ]
 }
