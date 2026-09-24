@@ -1,8 +1,24 @@
 {
   "ok": true,
   "source": "GitHub同域公告镜像",
-  "updatedAt": "2026-09-23T12:12:52.437442+00:00",
+  "updatedAt": "2026-09-24T12:11:00.291579+00:00",
   "items": [
+    {
+      "id": "AN202609241829869608",
+      "title": "恒瑞医药:恒瑞医药2026年第一次临时股东会法律意见书",
+      "stock": "恒瑞医药",
+      "code": "600276",
+      "time": "2026-09-24 18:52:27",
+      "url": "https://data.eastmoney.com/notices/detail/600276/AN202609241829869608.html"
+    },
+    {
+      "id": "AN202609241829869609",
+      "title": "恒瑞医药:恒瑞医药2026年第一次临时股东会决议公告",
+      "stock": "恒瑞医药",
+      "code": "600276",
+      "time": "2026-09-24 18:51:57",
+      "url": "https://data.eastmoney.com/notices/detail/600276/AN202609241829869609.html"
+    },
     {
       "id": "AN202609231829808512",
       "title": "药明康德:H股公告",
@@ -386,22 +402,6 @@
       "code": "600276",
       "time": "2026-08-26 17:42:45",
       "url": "https://data.eastmoney.com/notices/detail/600276/AN202608261828487380.html"
-    },
-    {
-      "id": "AN202608241828375270",
-      "title": "药明康德:自愿性公告",
-      "stock": "药明康德",
-      "code": "603259",
-      "time": "2026-08-24 22:08:57",
-      "url": "https://data.eastmoney.com/notices/detail/603259/AN202608241828375270.html"
-    },
-    {
-      "id": "AN202608241828363968",
-      "title": "恒瑞医药:恒瑞医药关于药品上市许可申请获受理的提示性公告",
-      "stock": "恒瑞医药",
-      "code": "600276",
-      "time": "2026-08-24 17:02:12",
-      "url": "https://data.eastmoney.com/notices/detail/600276/AN202608241828363968.html"
     }
   ]
 }
