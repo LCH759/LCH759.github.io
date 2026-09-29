@@ -1,8 +1,16 @@
 {
   "ok": true,
   "source": "GitHub同域公告镜像",
-  "updatedAt": "2026-09-24T12:11:00.291579+00:00",
+  "updatedAt": "2026-09-29T09:07:09.874855+00:00",
   "items": [
+    {
+      "id": "AN202609291829989231",
+      "title": "恒瑞医药: 恒瑞医药关于与Novo Nordisk A/S签署HRS-1596项目授权许可协议的公告",
+      "stock": "恒瑞医药",
+      "code": "600276",
+      "time": "2026-09-29 12:30:57",
+      "url": "https://data.eastmoney.com/notices/detail/600276/AN202609291829989231.html"
+    },
     {
       "id": "AN202609241829869608",
       "title": "恒瑞医药:恒瑞医药2026年第一次临时股东会法律意见书",
@@ -394,14 +402,6 @@
       "code": "600276",
       "time": "2026-08-26 17:43:18",
       "url": "https://data.eastmoney.com/notices/detail/600276/AN202608261828487379.html"
-    },
-    {
-      "id": "AN202608261828487380",
-      "title": "恒瑞医药:恒瑞医药关于以集中竞价交易方式回购公司A股股份事项的回购报告书",
-      "stock": "恒瑞医药",
-      "code": "600276",
-      "time": "2026-08-26 17:42:45",
-      "url": "https://data.eastmoney.com/notices/detail/600276/AN202608261828487380.html"
     }
   ]
 }
