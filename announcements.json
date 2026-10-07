@@ -1,8 +1,24 @@
 {
   "ok": true,
   "source": "GitHub同域公告镜像",
-  "updatedAt": "2026-09-29T15:51:32.094997+00:00",
+  "updatedAt": "2026-10-07T12:05:05.372423+00:00",
   "items": [
+    {
+      "id": "AN202610071830186437",
+      "title": "恒瑞医药:H股公告-证券变动月报表",
+      "stock": "恒瑞医药",
+      "code": "600276",
+      "time": "2026-10-07 16:45:30",
+      "url": "https://data.eastmoney.com/notices/detail/600276/AN202610071830186437.html"
+    },
+    {
+      "id": "AN202610071830186288",
+      "title": "药明康德:H股公告",
+      "stock": "药明康德",
+      "code": "603259",
+      "time": "2026-10-07 16:36:52",
+      "url": "https://data.eastmoney.com/notices/detail/603259/AN202610071830186288.html"
+    },
     {
       "id": "AN202609291829998216",
       "title": "药明康德:无锡药明康德新药开发股份有限公司章程(2026年第二次修订)",
@@ -32,7 +48,7 @@
       "title": "恒瑞医药: 恒瑞医药关于与Novo Nordisk A/S签署HRS-1596项目授权许可协议的公告",
       "stock": "恒瑞医药",
       "code": "600276",
-      "time": "2026-09-29 12:30:57",
+      "time": "2026-09-29 12:30:56",
       "url": "https://data.eastmoney.com/notices/detail/600276/AN202609291829989231.html"
     },
     {
@@ -386,22 +402,6 @@
       "code": "603259",
       "time": "2026-08-28 18:57:14",
       "url": "https://data.eastmoney.com/notices/detail/603259/AN202608281828642763.html"
-    },
-    {
-      "id": "AN202608281828642764",
-      "title": "药明康德:H股公告",
-      "stock": "药明康德",
-      "code": "603259",
-      "time": "2026-08-28 18:57:12",
-      "url": "https://data.eastmoney.com/notices/detail/603259/AN202608281828642764.html"
-    },
-    {
-      "id": "AN202608271828549613",
-      "title": "药明康德:国浩律师(上海)事务所关于无锡药明康德新药开发股份有限公司A股差异化权益分派事项的专项核查意见",
-      "stock": "药明康德",
-      "code": "603259",
-      "time": "2026-08-27 18:18:51",
-      "url": "https://data.eastmoney.com/notices/detail/603259/AN202608271828549613.html"
     }
   ]
 }
