@@ -1,8 +1,24 @@
 {
   "ok": true,
   "source": "GitHub同域公告镜像",
-  "updatedAt": "2026-10-07T12:05:05.372423+00:00",
+  "updatedAt": "2026-10-08T10:12:24.512966+00:00",
   "items": [
+    {
+      "id": "AN202610081830210366",
+      "title": "恒瑞医药:恒瑞医药关于回购公司A股股份的进展公告",
+      "stock": "恒瑞医药",
+      "code": "600276",
+      "time": "2026-10-08 16:49:09",
+      "url": "https://data.eastmoney.com/notices/detail/600276/AN202610081830210366.html"
+    },
+    {
+      "id": "AN202610081830210364",
+      "title": "恒瑞医药:恒瑞医药关于药品上市许可申请获EMA受理的提示性公告",
+      "stock": "恒瑞医药",
+      "code": "600276",
+      "time": "2026-10-08 16:49:09",
+      "url": "https://data.eastmoney.com/notices/detail/600276/AN202610081830210364.html"
+    },
     {
       "id": "AN202610071830186437",
       "title": "恒瑞医药:H股公告-证券变动月报表",
@@ -386,22 +402,6 @@
       "code": "600276",
       "time": "2026-09-02 16:40:09",
       "url": "https://data.eastmoney.com/notices/detail/600276/AN202609021828926737.html"
-    },
-    {
-      "id": "AN202609021828926736",
-      "title": "恒瑞医药:恒瑞医药关于回购公司A股股份的进展公告",
-      "stock": "恒瑞医药",
-      "code": "600276",
-      "time": "2026-09-02 16:40:09",
-      "url": "https://data.eastmoney.com/notices/detail/600276/AN202609021828926736.html"
-    },
-    {
-      "id": "AN202608281828642763",
-      "title": "药明康德:H股公告",
-      "stock": "药明康德",
-      "code": "603259",
-      "time": "2026-08-28 18:57:14",
-      "url": "https://data.eastmoney.com/notices/detail/603259/AN202608281828642763.html"
     }
   ]
 }
