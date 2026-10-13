@@ -1,8 +1,24 @@
 {
   "ok": true,
   "source": "GitHub同域公告镜像",
-  "updatedAt": "2026-10-12T13:33:50.692267+00:00",
+  "updatedAt": "2026-10-13T09:58:57.109748+00:00",
   "items": [
+    {
+      "id": "AN202610131830408781",
+      "title": "恒瑞医药:H股公告-翌日披露报表",
+      "stock": "恒瑞医药",
+      "code": "600276",
+      "time": "2026-10-13 16:59:36",
+      "url": "https://data.eastmoney.com/notices/detail/600276/AN202610131830408781.html"
+    },
+    {
+      "id": "AN202610131830408643",
+      "title": "恒瑞医药:恒瑞医药关于获得药物临床试验批准通知书的公告",
+      "stock": "恒瑞医药",
+      "code": "600276",
+      "time": "2026-10-13 16:58:09",
+      "url": "https://data.eastmoney.com/notices/detail/600276/AN202610131830408643.html"
+    },
     {
       "id": "AN202610121830364157",
       "title": "药明康德:H股公告",
@@ -386,22 +402,6 @@
       "code": "603259",
       "time": "2026-09-02 16:47:12",
       "url": "https://data.eastmoney.com/notices/detail/603259/AN202609021828927217.html"
-    },
-    {
-      "id": "AN202609021828927016",
-      "title": "恒瑞医药:H股公告-证券变动月报表",
-      "stock": "恒瑞医药",
-      "code": "600276",
-      "time": "2026-09-02 16:45:30",
-      "url": "https://data.eastmoney.com/notices/detail/600276/AN202609021828927016.html"
-    },
-    {
-      "id": "AN202609021828926735",
-      "title": "恒瑞医药:恒瑞医药关于召开2026年半年度业绩说明会的公告",
-      "stock": "恒瑞医药",
-      "code": "600276",
-      "time": "2026-09-02 16:40:09",
-      "url": "https://data.eastmoney.com/notices/detail/600276/AN202609021828926735.html"
     }
   ]
 }
