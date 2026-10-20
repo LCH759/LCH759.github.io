@@ -2,8 +2,8 @@
   "ok": true,
   "source": "GitHub同域前向模拟盘镜像 · 东方财富/腾讯公开前复权日线（自动备用）",
   "startedAt": "2026-08-15",
-  "updatedAt": "2026-10-19T22:43:14.221716+08:00",
-  "days": 40,
+  "updatedAt": "2026-10-20T20:45:38.664656+08:00",
+  "days": 41,
   "method": "MA10/MA30趋势规则；收盘形成信号，下一交易日开盘模拟执行；单边摩擦0.12%",
   "entries": [
     {
@@ -1598,6 +1598,46 @@
           "name": "创新药ETF富国",
           "open": 0.785,
           "close": 0.8,
+          "executedSignal": 0,
+          "nextSignal": 0,
+          "action": "空仓",
+          "blocked": false,
+          "equity": 0.95024943
+        }
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "equity": 0.95543655,
+      "dailyReturn": 0.01029472,
+      "assets": [
+        {
+          "code": "600276",
+          "name": "恒瑞医药",
+          "open": 46.1,
+          "close": 47.45,
+          "executedSignal": 1,
+          "nextSignal": 1,
+          "action": "持有",
+          "blocked": false,
+          "equity": 1.01159146
+        },
+        {
+          "code": "603259",
+          "name": "药明康德",
+          "open": 146.49,
+          "close": 147.66,
+          "executedSignal": 0,
+          "nextSignal": 0,
+          "action": "空仓",
+          "blocked": false,
+          "equity": 0.90446875
+        },
+        {
+          "code": "159748",
+          "name": "创新药ETF富国",
+          "open": 0.796,
+          "close": 0.81,
           "executedSignal": 0,
           "nextSignal": 0,
           "action": "空仓",
