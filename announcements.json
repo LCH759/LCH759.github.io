@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "GitHub同域公告镜像",
-  "updatedAt": "2026-10-27T11:05:17.073205+00:00",
+  "updatedAt": "2026-10-27T16:35:41.760642+00:00",
   "items": [
     {
       "id": "AN202610271831032752",
@@ -10,6 +10,14 @@
       "code": "600276",
       "time": "2026-10-27 16:43:12",
       "url": "https://data.eastmoney.com/notices/detail/600276/AN202610271831032752.html"
+    },
+    {
+      "id": "AN202610271831032754",
+      "title": "恒瑞医药:恒瑞医药关于获得药品注册批准的公告",
+      "stock": "恒瑞医药",
+      "code": "600276",
+      "time": "2026-10-27 16:43:06",
+      "url": "https://data.eastmoney.com/notices/detail/600276/AN202610271831032754.html"
     },
     {
       "id": "AN202610271831032750",
@@ -26,14 +34,6 @@
       "code": "600276",
       "time": "2026-10-27 16:42:39",
       "url": "https://data.eastmoney.com/notices/detail/600276/AN202610271831032753.html"
-    },
-    {
-      "id": "AN202610271831032754",
-      "title": "恒瑞医药:恒瑞医药关于获得药品注册批准的公告",
-      "stock": "恒瑞医药",
-      "code": "600276",
-      "time": "2026-10-27 16:43:06",
-      "url": "https://data.eastmoney.com/notices/detail/600276/AN202610271831032754.html"
     },
     {
       "id": "AN202610261830927103",
@@ -192,7 +192,7 @@
       "title": "恒瑞医药: 恒瑞医药关于与Novo Nordisk A/S签署HRS-1596项目授权许可协议的公告",
       "stock": "恒瑞医药",
       "code": "600276",
-      "time": "2026-09-29 12:30:56",
+      "time": "2026-09-29 12:30:57",
       "url": "https://data.eastmoney.com/notices/detail/600276/AN202609291829989231.html"
     },
     {
