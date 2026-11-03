@@ -1,8 +1,24 @@
 {
   "ok": true,
   "source": "GitHub同域公告镜像",
-  "updatedAt": "2026-11-02T13:52:43.784006+00:00",
+  "updatedAt": "2026-11-03T11:23:40.589526+00:00",
   "items": [
+    {
+      "id": "AN202611031831373737",
+      "title": "药明康德:H股公告",
+      "stock": "药明康德",
+      "code": "603259",
+      "time": "2026-11-03 17:25:13",
+      "url": "https://data.eastmoney.com/notices/detail/603259/AN202611031831373737.html"
+    },
+    {
+      "id": "AN202611031831368816",
+      "title": "恒瑞医药:恒瑞医药第十届董事会第六次会议决议公告",
+      "stock": "恒瑞医药",
+      "code": "600276",
+      "time": "2026-11-03 16:35:06",
+      "url": "https://data.eastmoney.com/notices/detail/600276/AN202611031831368816.html"
+    },
     {
       "id": "AN202611021831319895",
       "title": "恒瑞医药:H股公告-证券变动月报表",
@@ -386,22 +402,6 @@
       "code": "600276",
       "time": "2026-09-14 17:47:36",
       "url": "https://data.eastmoney.com/notices/detail/600276/AN202609141829374595.html"
-    },
-    {
-      "id": "AN202609111829272129",
-      "title": "药明康德:H股公告(翌日披露報表)",
-      "stock": "药明康德",
-      "code": "603259",
-      "time": "2026-09-11 17:01:29",
-      "url": "https://data.eastmoney.com/notices/detail/603259/AN202609111829272129.html"
-    },
-    {
-      "id": "AN202609111829270316",
-      "title": "恒瑞医药:恒瑞医药关于药物纳入突破性治疗品种名单的公告",
-      "stock": "恒瑞医药",
-      "code": "600276",
-      "time": "2026-09-11 16:50:03",
-      "url": "https://data.eastmoney.com/notices/detail/600276/AN202609111829270316.html"
     }
   ]
 }
