@@ -1,8 +1,32 @@
 {
   "ok": true,
   "source": "GitHub同域公告镜像",
-  "updatedAt": "2026-11-03T11:23:40.589526+00:00",
+  "updatedAt": "2026-11-04T11:21:07.346794+00:00",
   "items": [
+    {
+      "id": "AN202611041831410944",
+      "title": "恒瑞医药:恒瑞医药关于重新提交注射用卡瑞利珠单抗的生物制品许可申请获FDA受理的提示性公告",
+      "stock": "恒瑞医药",
+      "code": "600276",
+      "time": "2026-11-04 16:59:24",
+      "url": "https://data.eastmoney.com/notices/detail/600276/AN202611041831410944.html"
+    },
+    {
+      "id": "AN202611041831410943",
+      "title": "恒瑞医药:恒瑞医药关于获得药物临床试验批准通知书的公告",
+      "stock": "恒瑞医药",
+      "code": "600276",
+      "time": "2026-11-04 16:59:15",
+      "url": "https://data.eastmoney.com/notices/detail/600276/AN202611041831410943.html"
+    },
+    {
+      "id": "AN202611041831409746",
+      "title": "药明康德:关于召开2026年第三季度业绩说明会的公告",
+      "stock": "药明康德",
+      "code": "603259",
+      "time": "2026-11-04 16:33:37",
+      "url": "https://data.eastmoney.com/notices/detail/603259/AN202611041831409746.html"
+    },
     {
       "id": "AN202611031831373737",
       "title": "药明康德:H股公告",
@@ -378,30 +402,6 @@
       "code": "600276",
       "time": "2026-09-15 16:35:27",
       "url": "https://data.eastmoney.com/notices/detail/600276/AN202609151829414134.html"
-    },
-    {
-      "id": "AN202609151829414135",
-      "title": "恒瑞医药:恒瑞医药关于获得药物临床试验批准通知书的公告",
-      "stock": "恒瑞医药",
-      "code": "600276",
-      "time": "2026-09-15 16:35:27",
-      "url": "https://data.eastmoney.com/notices/detail/600276/AN202609151829414135.html"
-    },
-    {
-      "id": "AN202609141829371637",
-      "title": "药明康德:H股公告",
-      "stock": "药明康德",
-      "code": "603259",
-      "time": "2026-09-14 16:44:23",
-      "url": "https://data.eastmoney.com/notices/detail/603259/AN202609141829371637.html"
-    },
-    {
-      "id": "AN202609141829374595",
-      "title": "恒瑞医药:恒瑞医药关于药品上市许可申请获受理的提示性公告",
-      "stock": "恒瑞医药",
-      "code": "600276",
-      "time": "2026-09-14 17:47:36",
-      "url": "https://data.eastmoney.com/notices/detail/600276/AN202609141829374595.html"
     }
   ]
 }
