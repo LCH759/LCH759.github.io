@@ -1,8 +1,24 @@
 {
   "ok": true,
   "source": "GitHub同域公告镜像",
-  "updatedAt": "2026-11-16T23:51:09.740653+00:00",
+  "updatedAt": "2026-11-18T13:29:54.985600+00:00",
   "items": [
+    {
+      "id": "AN202611181831829708",
+      "title": "恒瑞医药:恒瑞医药关于召开2026年第三季度业绩说明会的公告",
+      "stock": "恒瑞医药",
+      "code": "600276",
+      "time": "2026-11-18 16:59:54",
+      "url": "https://data.eastmoney.com/notices/detail/600276/AN202611181831829708.html"
+    },
+    {
+      "id": "AN202611181831829709",
+      "title": "恒瑞医药:恒瑞医药关于获得药物临床试验批准通知书的公告",
+      "stock": "恒瑞医药",
+      "code": "600276",
+      "time": "2026-11-18 17:00:12",
+      "url": "https://data.eastmoney.com/notices/detail/600276/AN202611181831829709.html"
+    },
     {
       "id": "AN202611171831768457",
       "title": "药明康德:自愿性公告",
@@ -352,7 +368,7 @@
       "title": "恒瑞医药: 恒瑞医药关于与Novo Nordisk A/S签署HRS-1596项目授权许可协议的公告",
       "stock": "恒瑞医药",
       "code": "600276",
-      "time": "2026-09-29 12:30:56",
+      "time": "2026-09-29 12:30:57",
       "url": "https://data.eastmoney.com/notices/detail/600276/AN202609291829989231.html"
     },
     {
@@ -386,22 +402,6 @@
       "code": "603259",
       "time": "2026-09-23 18:51:55",
       "url": "https://data.eastmoney.com/notices/detail/603259/AN202609231829808511.html"
-    },
-    {
-      "id": "AN202609231829805490",
-      "title": "恒瑞医药:H股公告-翌日披露报表",
-      "stock": "恒瑞医药",
-      "code": "600276",
-      "time": "2026-09-23 17:57:12",
-      "url": "https://data.eastmoney.com/notices/detail/600276/AN202609231829805490.html"
-    },
-    {
-      "id": "AN202609231829801690",
-      "title": "恒瑞医药:恒瑞医药关于获得药物临床试验批准通知书的公告",
-      "stock": "恒瑞医药",
-      "code": "600276",
-      "time": "2026-09-23 16:36:18",
-      "url": "https://data.eastmoney.com/notices/detail/600276/AN202609231829801690.html"
     }
   ]
 }
