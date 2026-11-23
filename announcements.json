@@ -1,8 +1,16 @@
 {
   "ok": true,
   "source": "GitHub同域公告镜像",
-  "updatedAt": "2026-11-20T17:32:04.850099+00:00",
+  "updatedAt": "2026-11-23T19:20:56.778378+00:00",
   "items": [
+    {
+      "id": "AN202611231831961770",
+      "title": "恒瑞医药:H股公告-翌日披露报表",
+      "stock": "恒瑞医药",
+      "code": "600276",
+      "time": "2026-11-23 18:38:00",
+      "url": "https://data.eastmoney.com/notices/detail/600276/AN202611231831961770.html"
+    },
     {
       "id": "AN202611201831903832",
       "title": "恒瑞医药:H股公告-翌日披露报表",
@@ -394,14 +402,6 @@
       "code": "600276",
       "time": "2026-09-29 12:30:56",
       "url": "https://data.eastmoney.com/notices/detail/600276/AN202609291829989231.html"
-    },
-    {
-      "id": "AN202609241829869608",
-      "title": "恒瑞医药:恒瑞医药2026年第一次临时股东会法律意见书",
-      "stock": "恒瑞医药",
-      "code": "600276",
-      "time": "2026-09-24 18:52:27",
-      "url": "https://data.eastmoney.com/notices/detail/600276/AN202609241829869608.html"
     }
   ]
 }
